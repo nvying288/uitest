@@ -45,7 +45,8 @@ print("----->点击开始测评")
 obvious_wait_click(driver, "//*[@id='root']/div/div[2]/div/div/ul/li[1]", "无法选择科目")
 print("----->选择科目")
 # 选择年级
-obvious_wait_click(driver, "/html[@class='windows desktop landscape g-verdor-learnta g-Product-task g-for-self']/body/div[@id='root']/div[@class='mRecruitHome']/div[@class='mRecruit-content']/div/div[@class='step step-2']/ul/li[1]", "无法选择年级")
+# obvious_wait_click(driver, "/html[@class='windows desktop landscape g-verdor-learnta g-Product-task g-for-self']/body/div[@id='root']/div[@class='mRecruitHome']/div[@class='mRecruit-content']/div/div[@class='step step-2']/ul/li[1]", "无法选择年级")
+obvious_wait_click(driver, "//*[@id='root']/div/div[2]/div/div/ul/li[4]", "无法选择年级")
 print("----->选择年级")
 
 
