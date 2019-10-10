@@ -2,11 +2,14 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 import traceback
 
-
+# service = Service('')
+# service.command_line_args()
+# service.start()
 mobileEmulation = {'deviceName': 'iPhone 6'}
 options = webdriver.ChromeOptions()
 options.add_experimental_option('mobileEmulation', mobileEmulation)
@@ -72,8 +75,8 @@ while findNext(driver):
         findReview(driver)
 
 # 关闭浏览器
-driver.quit()
-
+driver.close()
+# service.stop()
 # 手机型号
 mobile_emulation = {
             "deviceName": "Apple iPhone 3GS",
