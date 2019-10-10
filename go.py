@@ -75,7 +75,7 @@ while findNext(driver):
         findReview(driver)
 
 # 关闭浏览器
-driver.close()
+driver.quit()
 # service.stop()
 # 手机型号
 mobile_emulation = {
