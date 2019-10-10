@@ -96,4 +96,5 @@ while find_next(driver):
 # 等待2s
 time.sleep(2)
 # 关闭浏览器
-driver.quit()
+# driver.quit()
+driver.close()
