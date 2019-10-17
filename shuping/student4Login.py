@@ -1,5 +1,4 @@
-## # -*- coding:UTF-8 -*-
-# coding=utf-8
+#coding=utf-8
 
 import os
 import unittest
@@ -12,7 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 from common.commonConfig import CommonConfig
-
 
 class student4TestCase(unittest.TestCase):
 
