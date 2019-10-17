@@ -1,4 +1,4 @@
-#coding=utf-8
+# -*- coding:UTF-8 -*-
 
 import os
 import unittest
@@ -18,9 +18,11 @@ class student4TestCase(unittest.TestCase):
         '''学生端登录'''
         #try:
         path = CommonConfig.getPath(self)
+        print("path:" + path)
         # linux路径
         # path = "/usr/local/python3/chromedriver"
         url = CommonConfig.getUrl("TypeUrl", "student4Url")
+        print("url:" + url)
 
         # linux使用的静默执行方法
         options = webdriver.ChromeOptions()
