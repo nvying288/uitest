@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+
 import os
 from common.commonConfig import CommonConfig
 import time
