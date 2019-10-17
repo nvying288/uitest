@@ -3,7 +3,7 @@
 import os
 import unittest
 
-from BeautifulReport import BeautifulReport
+#from BeautifulReport import BeautifulReport
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
