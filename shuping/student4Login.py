@@ -63,6 +63,6 @@ class student4TestCase(unittest.TestCase):
 
 if __name__ == "__main__":
     s = student4TestCase()
-    s.test_Login()
+    s.test_case1_Login()
     #unittest.main
     #student4TestCase.test_Login()
