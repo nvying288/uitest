@@ -1,4 +1,4 @@
-# -*- coding:UTF-8 -*-
+# -*- coding=utf-8 -*-
 
 import os
 import unittest
@@ -55,14 +55,14 @@ class student4TestCase(unittest.TestCase):
         self.assertEqual("测试学生1", username)
 
 
-testsuite = unittest.TestSuite()
-testsuite.addTests(unittest.makeSuite(student4TestCase))
-reportpath = os.path.dirname(os.path.abspath('.') + '/report/report')
-run = BeautifulReport(testsuite)
-run.report(filename='学生端测试报告.html', description='学生端测试用例', report_dir=reportpath)
+# testsuite = unittest.TestSuite()
+# testsuite.addTests(unittest.makeSuite(student4TestCase))
+# reportpath = os.path.dirname(os.path.abspath('.') + '/report/report')
+# run = BeautifulReport(testsuite)
+# run.report(filename='学生端测试报告.html', description='学生端测试用例', report_dir=reportpath)
 
-# if __name__ == "__main__":
-#     s = student4TestCase()
-#     s.test_Login()
+if __name__ == "__main__":
+    s = student4TestCase()
+    s.test_Login()
     #unittest.main
     #student4TestCase.test_Login()
